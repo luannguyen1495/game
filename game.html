@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="item">
+                <div class="content">
+                    <img src="images/bau.PNG" alt="" class="w-100 c" data-cuoc="0" id="bau" onclick="dat(this)">
+                </div>
+                <div class="price" id="cuoc_bau">0</div>   
+            </div>
+            <div class="item">
+                <div class="content">
+                    <img src="images/cua.PNG" alt="" class="w-100 c" data-cuoc="0" id="cua" onclick="dat(this)">
+                </div>
+                <div class="price" id="cuoc_cua">0</div>   
+            </div>
+            <div class="item">
+                <div class="content">
+                    <img src="images/tom.PNG" alt="" class="w-100 c" data-cuoc="0" id="tom" onclick="dat(this)">
+                </div>
+                <div class="price" id="cuoc_tom">0</div>   
+            </div>
+            <div class="item">
+                <div class="content">
+                    <img src="images/ca.PNG" alt="" class="w-100 c" data-cuoc="0" id="ca" onclick="dat(this)">
+                </div>
+                <div class="price" id="cuoc_ca">0</div>   
+            </div>
+            <div class="item">
+                <div class="content">
+                    <img src="images/ga.PNG" alt="" class="w-100 c" data-cuoc="0" id="ga" onclick="dat(this)">
+                </div>
+                <div class="price" id="cuoc_ga">0</div>   
+            </div>
+            <div class="item">
+                <div class="content">
+                    <img src="images/huou.PNG" alt="" class="w-100 c" data-cuoc="0" id="huou" onclick="dat(this)">
+                </div>
+                <div class="price" id="cuoc_huou">0</div>   
+            </div>
+        </div>
+        <div class="right">
+            <div class="result">
+                <div class="list-result">
+                    <div class="item-result">
+                        <img src="images/huou.PNG" alt="" class="w-100" id="i1">
+                    </div>
+                    <div class="item-result">
+                        <img src="images/ca.PNG" alt="" class="w-100" id="i2">
+                    </div>
+                    <div class="item-result">
+                        <img src="images/tom.PNG" alt="" class="w-100" id="i3">
+                    </div>
+                </div>
+                <div class="btn">
+                    <div class="score">
+                        <span id="diem">10000</span>
+                    </div>
+                    <button class="btn-xoc" onclick="run()">xóc</button>
+                    <button class="btn-xoc btn-danger">Đặt lại</button>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.left{
+    display: flex;
+    background-color: #000;
+    flex-wrap: wrap;
+}
+.item{
+    width: 33.333%;
+    padding: 10px;
+}
+.amount{
+   display: flex;
+
+}
+.price{
+    width: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+}
+.content{
+    border: 2px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.w-100{
+    width: 100%;
+    vertical-align: middle;
+}
+.result{
+    background-color: rgb(35, 78, 197);
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.list-result{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.item-result{
+    width: 20%;
+    border: 2px solid #fff;
+    margin: 10px;
+    padding: 5px;
+
+}
+.btn{
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.score{
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.btn-xoc{
+    width: 100px;
+    background-color: green;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.btn-danger{
+    background-color: red;
+}
